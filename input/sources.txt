@@ -1,0 +1,8 @@
+All images sourced from wikipedia commons:
+child.jpg (https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Child_laborer.jpg/800px-Child_laborer.jpg)
+city.jpg (https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Panorama_di_Riomaggiore.jpg/1024px-Panorama_di_Riomaggiore.jpg)
+crystal.jpg (https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/%D0%95%D1%81%D1%81%D0%B5%D0%BD%D1%82%D1%83%D0%BA%D0%B8_4.JPG/800px-%D0%95%D1%81%D1%81%D0%B5%D0%BD%D1%82%D1%83%D0%BA%D0%B8_4.JPG)
+glacier.jpg (https://commons.wikimedia.org/wiki/File:Matanuska_Glacier_mouth.jpg)
+lake.jpg (https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Gunung_rinjani.jpg/800px-Gunung_rinjani.jpg)
+nightcity.jpg (https://commons.wikimedia.org/wiki/File:Melbourne_Docklands_-_Yarras_Edge_-_marina_panorama.jpg)
+
