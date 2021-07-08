@@ -194,22 +194,22 @@ void init_img(CImg<float> src, float** arr, vector<vector<Pixel>> &temp_img){
 
 void get_mask(int w, int h, float** dst, CImg<float> src){
 	float white[] = {255, 255, 255}; 
-  float red[] = {255, 0, 0};
+  	float red[] = {255, 0, 0};
 	CImg<float> mask(w, h, 1, 1, 0);
 	CImgDisplay dsp(src,"Draw Mask"); 
-    //Display window for masking 
-    while (!dsp.is_closed() && !dsp.is_keyQ()) {
-			dsp.resize(true);
-			int m_x, m_y;
-			if(dsp.button()){ 
-        	m_x = dsp.mouse_x() * w/dsp.width(); 
-        	m_y = dsp.mouse_y() * h/dsp.height();
-          src.draw_circle(m_x, m_y, 15, red, 0.05); 
-          mask.draw_circle(m_x, m_y, 15, white, 0.05); 
-          dsp.display(src); 
-        }
-			dsp.wait();
-    }
+    	//Display window for masking 
+   	 while (!dsp.is_closed() && !dsp.is_keyQ()) {
+		dsp.resize(true);
+		int m_x, m_y;
+		if(dsp.button()){ 
+        		m_x = dsp.mouse_x() * w/dsp.width(); 
+        		m_y = dsp.mouse_y() * h/dsp.height();
+          	src.draw_circle(m_x, m_y, 15, red, 0.05); 
+          	mask.draw_circle(m_x, m_y, 15, white, 0.05); 
+          	dsp.display(src); 
+       		}
+		dsp.wait();
+    	}
 	//Add mask vals to dst array
 	for (int i = 0; i < h; i++)
 		for (int j = 0; j < w; j++)
